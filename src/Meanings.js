@@ -1,15 +1,16 @@
 import React from "react";
 
+import "./Meanings.css";
+
 export default function Meanings(props) {
-console.log(props.meanings);
   return (
     <div className="Meanings">
-      <h3>{props.meanings.partOfSpeech}</h3>
-      <h2>
+      <h2 className="">{props.meanings.partOfSpeech}</h2>
+      <h3>
         <em>{props.meanings.definition}</em>
-      </h2>
+      </h3>
 
-      <h2>{props.meanings.example}</h2>
+      <h3 className="text-muted mb-3">{props.meanings.example}</h3>
       <br />
     </div>
   );
