@@ -1,0 +1,10 @@
+.Meanings h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.Meanings h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
