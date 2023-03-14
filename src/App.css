@@ -1,0 +1,7 @@
+.App {
+    background-color: rgba(250, 243, 221, 0.3);
+}
+.App .container {
+    max-width: 1300px;
+    
+}

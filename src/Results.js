@@ -4,11 +4,14 @@ import "./Results.css";
 
 export default function Results(props) {
     if (props.results) {
-        return (
-          <div className="Results p-4">
+      return (
+        <div className="Results p-4">
+          <section>
             <h2 className="name-word mb-3">{props.results.word}</h2>
             <h3 className="phonetics">{props.results.phonetic}</h3>
-            <br />
+          </section>
+          <br />
+          <section>
             {props.results.meanings.map(function (meanings, index) {
               return (
                 <div key={index}>
@@ -16,8 +19,9 @@ export default function Results(props) {
                 </div>
               );
             })}
-          </div>
-        );
+          </section>
+        </div>
+      );
     } else {
         return null;
     }
