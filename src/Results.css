@@ -1,0 +1,25 @@
+.Results {
+    margin: 30px auto;
+    display: block;
+    max-width: 1200px;
+    padding:200px;
+}
+
+.Results section {
+    background-color: #7C9885;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+
+.Results .name-word {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color:rgba(250, 243, 221, 0.9);
+    
+}
+
+.Results .phonetics {
+    color:rgba(250, 243, 221, 0.6);
+    font-size: 25px;
+}
