@@ -10,6 +10,16 @@ export default function App() {
           <div className="subtitle">What do you want to know?</div>
           <Dictionary defaultWord={"Smile"} />
         </header>
+        <footer>
+          <a
+            href="https://github.com/MargaridaFCosta/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Source Coded
+          </a>{" "}
+          by Margarida Fonseca e Costa
+        </footer>
       </div>
     </div>
   );

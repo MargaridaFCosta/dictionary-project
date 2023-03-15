@@ -1,19 +1,20 @@
 
 .Dictionary form {
-  background-color: rgba(124, 152, 133, 0.6);
-  max-width: 100%;
+  background-color: rgba(250, 243, 221, 0.4);
   display: block;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 50px;
   border-radius: 4px;
 }
 
 .Dictionary input {
   width: 80%;
-  padding: 5px 50px;
+  height: 64px;
+  padding: 5px 40px;
   border-radius: 4px;
   font-size: 20px;
   text-align: left;
   border: 1px solid #FAF3DD;
   font-size: 25px;
+  color:#666;
 }

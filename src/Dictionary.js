@@ -43,14 +43,14 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <form onSubmit={handleSubmit} className="text-center mt-5">
-          <input
-            type="search"
-            onChange={handleInput}
-            placeholder="Insert a word"
-            defaultValue={props.defaultWord}
-          ></input>
-        </form>
+          <form onSubmit={handleSubmit} className="text-center mt-5">
+            <input
+              type="search"
+              onChange={handleInput}
+              placeholder="Insert a word"
+              defaultValue={props.defaultWord}
+            ></input>
+          </form>
 
         <Results results={results} />
         <Photos photos={photos} />
