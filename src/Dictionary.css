@@ -1,6 +1,6 @@
 
 .Dictionary form {
-  background-color: #C8D5B9;
+  background-color: rgba(124, 152, 133, 0.6);
   max-width: 100%;
   display: block;
   margin: 0 auto;
@@ -15,6 +15,5 @@
   font-size: 20px;
   text-align: left;
   border: 1px solid #FAF3DD;
-  color: #495057;
   font-size: 25px;
 }
